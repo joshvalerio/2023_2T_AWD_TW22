@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    margin-top: 50px;
+}
+
+.button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative; /* Change to relative positioning */
+    margin-left: auto; /* Push to the right */
+    margin-top: 10px; /* Add margin for spacing */
+    transition: top 0.5s ease-in-out, background-color 0.5s;
+}
+
+.animate {
+    top: 50px;
+}
+
+.box1 { left: 50px; }
+.box2 { left: 50px; }
+.box3 { left: 50px; }
+.box4 { left: 50px; }
+.box5 { left: 50px; }
+.box6 { left: 50px; }
+.box7 { left: 50px; }
+
